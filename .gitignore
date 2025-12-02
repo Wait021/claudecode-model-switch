@@ -27,4 +27,6 @@ Thumbs.db
 
 # 配置文件中的真实 token（如果创建了副本）
 *real*.sh
-*config*.sh
+*config*.sh3
+CLAUDE.md
+.claude/
