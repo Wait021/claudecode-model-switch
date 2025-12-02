@@ -37,11 +37,41 @@
 
 ## 🎯 支持的配置
 
-| 配置 | 服务商 | 模型 | 说明 |
-|------|--------|------|------|
-| **kimi** | Kimi | kimi-for-coding | 月之暗面的 Kimi 编程助手 |
-| **glm** | 智谱AI | glm-4.6 / glm-4.5-air | 智谱 AI GLM 系列 |
-| **doubao** | 豆包 | doubao-seed-code-preview-latest | 字节跳动豆包编程助手 |
+| 配置 | 服务商 | 模型 | 套餐计划 | 说明 |
+|------|--------|------|----------|------|
+| **kimi** | Kimi | kimi-for-coding | Kimi For Coding 会员 | 月之暗面的 Kimi 编程助手 |
+| **glm** | 智谱AI | glm-4.6 / glm-4.5-air | GLM Coding Plan | 智谱 AI GLM 系列 |
+| **doubao** | 豆包 | doubao-seed-code-preview-latest | 方舟 Coding Plan | 字节跳动豆包编程助手 |
+
+## 🎁 优惠推荐
+
+🚀 **智谱 GLM Coding 超值订阅，邀你一起薅羊毛！**
+
+Claude Code、Cline 等 10+ 大编程工具无缝支持，"码力"全开，越拼越爽！立即开拼，享限时惊喜价！
+
+📱 **专属邀请链接**：https://www.bigmodel.cn/claude-code?ic=URM4OE8DBC
+
+## 📊 服务商套餐详情
+
+### 🌙 Kimi For Coding 会员
+- **用量限制**：每 5 小时 100-500 次请求
+- **响应速度**：最高输出速度可达 100 Tokens/秒
+- **兼容工具**：Kimi CLI、Claude Code、RooCode 等
+- **获取方式**：登录 Kimi → 左下角用户头像 → 会员计划
+
+### 🤖 GLM Coding Plan
+- **Lite 套餐**：¥20/月，每 5 小时约 120 次请求（相当于 Claude Pro 用量的 3 倍）
+- **Pro 套餐**：¥50/月，每 5 小时约 600 次请求（相当于 Claude Max 5x 用量的 3 倍）
+- **Max 套餐**：¥100/月，每 5 小时约 2400 次请求（相当于 Claude Max 20x 用量的 3 倍）
+- **响应速度**：55+ Tokens/秒，真正实时交互
+- **支持工具**：Claude Code、Cline、OpenCode、Roo Code 等 10+ 编程工具
+
+### 🐋 方舟 Coding Plan（豆包）
+- **Lite 套餐**：适合中等强度开发任务，每 5 小时最多约 1,200 次请求
+- **Pro 套餐**：适合复杂项目开发，Lite 套餐的 5 倍用量，每 5 小时最多约 6,000 次请求
+- **月限制**：Lite 套餐每月最多约 18,000 次请求，Pro 套餐每月最多约 90,000 次请求
+- **刷新规则**：每 5 小时滑动窗口刷新，每周一重置周限额，每月第 1 日重置月限额
+- **支持工具**：Claude Code、Cursor、Cline、Codex CLI、veCLI 等
 
 ## 安装方法
 

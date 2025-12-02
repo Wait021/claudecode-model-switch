@@ -37,11 +37,41 @@ And thus this project was born - a tool that can quickly switch Claude Code mode
 
 ## 🎯 Supported Configurations
 
-| Configuration | Provider | Model | Description |
-|---------------|----------|-------|-------------|
-| **kimi** | Kimi | kimi-for-coding | Moonshot AI's Kimi Coding Assistant |
-| **glm** | Zhipu AI | glm-4.6 / glm-4.5-air | Zhipu AI GLM Series |
-| **doubao** | Doubao | doubao-seed-code-preview-latest | ByteDance Doubao Coding Assistant |
+| Configuration | Provider | Model | Subscription Plan | Description |
+|---------------|----------|-------|-------------------|-------------|
+| **kimi** | Kimi | kimi-for-coding | Kimi For Coding | Moonshot AI's Kimi Coding Assistant |
+| **glm** | Zhipu AI | glm-4.6 / glm-4.5-air | GLM Coding Plan | Zhipu AI GLM Series |
+| **doubao** | Doubao | doubao-seed-code-preview-latest | Volcano Ark Coding Plan | ByteDance Doubao Coding Assistant |
+
+## 🎁 Special Offer
+
+🚀 **Join GLM Coding Plan - Amazing Subscription Deal!**
+
+Seamlessly supports 10+ major coding tools including Claude Code, Cline, and more. Unleash your coding potential with special limited-time pricing!
+
+📱 **Exclusive Referral Link**: https://www.bigmodel.cn/claude-code?ic=URM4OE8DBC
+
+## 📊 Provider Subscription Details
+
+### 🌙 Kimi For Coding Membership
+- **Usage Limit**: 100-500 requests per 5 hours
+- **Response Speed**: Up to 100 tokens/second
+- **Compatible Tools**: Kimi CLI, Claude Code, RooCode, etc.
+- **How to Get**: Login to Kimi → Click user avatar (bottom-left) → Membership Plan
+
+### 🤖 GLM Coding Plan
+- **Lite Plan**: ¥20/month, ~120 requests per 5 hours (3x Claude Pro usage)
+- **Pro Plan**: ¥50/month, ~600 requests per 5 hours (3x Claude Max 5x usage)
+- **Max Plan**: ¥100/month, ~2400 requests per 5 hours (3x Claude Max 20x usage)
+- **Response Speed**: 55+ tokens/second, truly real-time interaction
+- **Supported Tools**: Claude Code, Cline, OpenCode, Roo Code, and 10+ other coding tools
+
+### 🐋 Volcano Ark Coding Plan (Doubao)
+- **Lite Plan**: For medium-intensity development tasks, ~1,200 requests per 5 hours
+- **Pro Plan**: For complex project development, 5x Lite usage, ~6,000 requests per 5 hours
+- **Monthly Limits**: Lite ~18,000 requests/month, Pro ~90,000 requests/month
+- **Refresh Rules**: 5-hour sliding window refresh, weekly reset on Monday 00:00, monthly reset on 1st
+- **Supported Tools**: Claude Code, Cursor, Cline, Codex CLI, veCLI, etc.
 
 ## 🚀 Quick Start
 
