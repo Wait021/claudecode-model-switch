@@ -22,11 +22,23 @@
 
 1. **克隆仓库**：
    ```bash
-   git clone https://github.com/your-username/claudecode-model-switch.git
+   git clone https://github.com/Wait021/claudecode-model-switch.git
    cd claudecode-model-switch
    ```
 
-2. **添加到 .bashrc**：
+2. **⚠️ 配置你的 API Keys**：
+
+   编辑 `claude_switch.sh` 文件，将示例 token 替换为你的真实 API keys：
+   ```bash
+   nano claude_switch.sh
+   ```
+
+   需要修改的位置：
+   - **第47行**：Kimi 配置的 `ANTHROPIC_AUTH_TOKEN="sk-"`
+   - **第62行**：GLM 配置的 `ANTHROPIC_AUTH_TOKEN=""`
+   - **第77行**：Doubao 配置的 `ANTHROPIC_AUTH_TOKEN=""`
+
+3. **添加到 .bashrc**：
    ```bash
    echo "source $(pwd)/claude_switch.sh" >> ~/.bashrc
    source ~/.bashrc
@@ -80,11 +92,20 @@ $ claude_kimi
 
 ## 安全注意事项
 
-⚠️ **重要提醒**：
+🚨 **重要提醒**：
 
-1. **不要提交敏感信息**：本项目的配置文件中包含示例 token，请替换为你自己的有效 token
-2. **保护 API 密钥**：不要在公开场合分享你的 API 密钥
-3. **定期更新密钥**：建议定期更换 API 密钥以确保安全
+1. **⚠️ 配置真实 API Keys**：
+   - 项目中的 `claude_switch.sh` 只包含示例 token（如 `sk-` 或空字符串）
+   - **必须**将它们替换为你自己的有效 API keys 才能正常使用
+
+2. **🔒 保护敏感信息**：
+   - **不要**将包含真实 API keys 的文件提交到公开仓库
+   - 已经在 `.gitignore` 中排除包含真实 token 的文件
+   - 不要在公开场合分享你的 API 密钥
+
+3. **🔄 定期更新密钥**：
+   - 建议定期更换 API 密钥以确保安全
+   - 如果发现密钥泄露，立即更换并撤销旧密钥
 
 ## 自定义配置
 
