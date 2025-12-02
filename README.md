@@ -1,8 +1,22 @@
 # Claude Code Model Switch
 
-> 🎯 一个用 Claude Code 写的 Claude Code 配置切换工具
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Shell](https://img.shields.io/badge/Shell-Bash-green.svg)](https://www.gnu.org/software/bash/)
+[![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey.svg)](https://www.linux.org/)
+[![Claude Code](https://img.shields.io/badge/Made%20with-Claude%20Code-ff69b4.svg)](https://claude.com/claude-code)
 
-一键切换 Claude Code 多种配置环境，支持 Kimi、GLM、Doubao 等多种配置。
+> 🎯 一键切换 Claude Code 多种模型配置的命令行工具
+
+一个简化 Claude Code 模型配置管理的 Shell 脚本，支持快速切换 Kimi、GLM、Doubao 等多种 AI 编程助手。告别手动修改 `.bashrc` 的繁琐操作，像使用 `proxy_on`/`proxy_off` 一样简单便捷。
+
+## ✨ 主要功能
+
+- 🚀 **一键切换模型配置** - 支持多种 AI 编程助手的快速切换
+- 🔧 **简化配置管理** - 无需手动编辑 `.bashrc` 文件
+- 🎨 **友好的命令行界面** - 彩色输出和清晰的状态提示
+- 🔒 **安全可靠** - API token 敏感信息自动隐藏，支持用户权限控制
+- 📝 **配置状态显示** - 实时查看当前使用的模型配置
+- 🧹 **智能环境清理** - 切换前自动清理之前的配置环境
 
 ## 📖 项目故事
 
@@ -19,16 +33,7 @@
 
 于是就有了这个项目——一个可以通过简单命令快速切换 Claude Code 模型配置的工具，就像 `proxy_on`/`proxy_off` 一样方便！
 
-## ✨ 功能特点
-
-- 🚀 **一键切换**：告别手动修改 `.bashrc`，一个命令切换模型配置
-- 🔒 **权限控制**：仅限指定用户使用，确保安全
-- 🎨 **彩色输出**：清晰的状态显示和错误提示
-- 🔐 **安全隐藏**：API token 敏感信息自动隐藏
-- 🧹 **智能清理**：切换配置前自动清理之前的设置
-- 📝 **状态显示**：随时查看当前使用的配置信息
-
-## 支持的配置
+## 🎯 支持的配置
 
 | 配置 | 服务商 | 模型 | 说明 |
 |------|--------|------|------|
