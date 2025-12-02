@@ -44,7 +44,7 @@ function claude_kimi() {
     claude_clear
 
     export ANTHROPIC_BASE_URL="https://api.kimi.com/coding/"
-    export ANTHROPIC_AUTH_TOKEN="sk-"
+    export ANTHROPIC_AUTH_TOKEN="sk-your-kimi-api-key"
     export ANTHROPIC_MODEL="kimi-for-coding"
     export ANTHROPIC_SMALL_FAST_MODEL="kimi-for-coding"
     export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC="1"
@@ -59,7 +59,7 @@ function claude_glm() {
     claude_clear
 
     export ANTHROPIC_BASE_URL="https://open.bigmodel.cn/api/anthropic"
-    export ANTHROPIC_AUTH_TOKEN=""
+    export ANTHROPIC_AUTH_TOKEN="your-glm-api-key"
     export API_TIMEOUT_MS="3000000"
     export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC="1"
     export ANTHROPIC_DEFAULT_HAIKU_MODEL="glm-4.5-air"
@@ -74,7 +74,7 @@ function claude_glm() {
 function claude_doubao() {
     claude_clear
 
-    export ANTHROPIC_AUTH_TOKEN=""
+    export ANTHROPIC_AUTH_TOKEN="your-doubao-api-key"
     export ANTHROPIC_BASE_URL="https://ark.cn-beijing.volces.com/api/coding"
     export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC="1"
     export API_TIMEOUT_MS="3000000"

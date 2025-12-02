@@ -57,9 +57,9 @@
    ```
 
    需要修改的位置：
-   - **第47行**：Kimi 配置的 `ANTHROPIC_AUTH_TOKEN="sk-"`
-   - **第62行**：GLM 配置的 `ANTHROPIC_AUTH_TOKEN=""`
-   - **第77行**：Doubao 配置的 `ANTHROPIC_AUTH_TOKEN=""`
+   - **第47行**：Kimi 配置的 `ANTHROPIC_AUTH_TOKEN="sk-your-kimi-api-key"`
+   - **第62行**：GLM 配置的 `ANTHROPIC_AUTH_TOKEN="your-glm-api-key"`
+   - **第77行**：Doubao 配置的 `ANTHROPIC_AUTH_TOKEN="your-doubao-api-key"`
 
 3. **添加到 .bashrc**：
    ```bash
@@ -118,7 +118,7 @@ $ claude_kimi
 🚨 **重要提醒**：
 
 1. **⚠️ 配置真实 API Keys**：
-   - 项目中的 `claude_switch.sh` 只包含示例 token（如 `sk-` 或空字符串）
+   - 项目中的 `claude_switch.sh` 只包含示例 token（如 `sk-your-kimi-api-key`、`your-glm-api-key`）
    - **必须**将它们替换为你自己的有效 API keys 才能正常使用
 
 2. **🔒 保护敏感信息**：
