@@ -1,0 +1,30 @@
+# Claude Code Model Switch - .gitignore
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 备份文件
+*.bak
+*.backup
+
+# 配置文件中的真实 token（如果创建了副本）
+*real*.sh
+*config*.sh
